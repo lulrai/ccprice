@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DirtBot Commands</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" href="images/icon/dirt1.png">
+  <!-- =======================================================
+    Theme Name: Multi
+    Theme URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+            <div class="navbar-brand">
+              <a href="index.html"><h1><span>Dirt</span>Bot</h1></a>
+            </div>
+          </div>
+
+          <div class="navbar-collapse collapse">
+            <div class="menu">
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation"><a href="index.html" class="active">Home</a></li>
+                <li role="presentation"><a href="commands.html">Commands</a></li>
+                <li role="presentation"><a href="https://discordapp.com/oauth2/authorize?client_id=336255578567475204&scope=bot&permissions=2146958585">Invite Bot</a></li>
+                <li role="presentation"><a href="https://discord.gg/bKgKm9s">Join Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="services">
+    <div class="container">
+      <div class="text-center">
+        <div class="services-box">
+          <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.2s">
+            <h2>Bot Commands</h2>
+          </div>
+        </div>
+      </div>
+        <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.4s">
+            <p>All the commands in the bot is listed here with their description:</p>
+            <br>
+            <h5>Default Prefix:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>-!</b></h5>
+            <br>
+            <h4>Index:</h4>
+            <br>
+            <p>&#91; &#93; &nbsp;&nbsp;&nbsp;&nbsp; = &nbsp; Optional</p>
+            <p>&lt; &gt; &nbsp;&nbsp; = &nbsp; Required</p>
+            <br>
+        </div>
+    </div>
+  </div>
+    
+    <div class ="commandinfo">
+        <div class="container">
+            <div class="cmdtitles">
+                <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
+                    <div id="settingscmd">
+                        <h4><span id="caret"><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Setting Commands</h4>
+                    </div>
+                </div>
+                <div id="settingshowhide" style="hidden">
+                    Configuring the settings for this guild/server requires <b>Bot Admin</b> or <b>Admin</b> or <b>Administrator</b> role OR <b>Administrator permission</b> for the user to be recognized as an administrator.
+                    <br><br>
+                    <b>Required Bot Permissions:</b>
+                    <br>
+                    <ol>
+                        <li>READ MESSAGES</li>
+                        <li>SEND MESSAGES</li>
+                        <li>EMBED MESSAGES</li>
+                    </ol>
+                    <br>
+                    <b>Commands:</b>
+                    <br>
+                    <h5><li>setprefix &lt;new_prefix&gt;</li></h5>
+                    <p>Lets you set a new prefix for your server!<br>
+                        <span class = "eg">Eg: -!setprefix --</span></p>
+                    
+                    <h5><li>command enable &lt;cmd&gt;</li></h5>
+                    <p>Enable a command that has been disabled on the server. Use commands disabled to check the disabled list.<br>
+                        <span class = "eg">Eg: -!command enable wyr</span></p>
+                    
+                    <h5><li>command disable &lt;cmd&gt;</li></h5>
+                    <p>Disable a command that has been enabled on the server. Use commands enabled to check the enabled list.<br>
+                        <span class = "eg">Eg: -!command disable cat</span></p>
+                </div>
+            </div>
+            <br>
+            <div class="cmdtitles">
+                <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
+                    <div id="admincmd">
+                        <h4><span id="caret"><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Administrator Commands</h4>
+                    </div>
+                </div>
+                <div id="adminshowhide" style="hidden">
+                    Requires <b>Bot Admin</b> or <b>Admin</b> or <b>Administrator</b> role OR <b>Administrator permission</b> for the user to be recognized as an administrator. 
+                    <br><br>
+                    <b>Required Bot Permissions:</b>
+                    <br>
+                    <ol>
+                        <li>READ MESSAGES</li>
+                        <li>SEND MESSAGES</li>
+                        <li>EMBED MESSAGES</li>
+                        <li>KICK &#40;optional&#41;</li>
+                        <li>BAN &#40;optional&#41;</li>
+                        <li>MANAGE ROLES</li>
+                        <li>MANAGE NICKNAMES</li>
+                    </ol>
+                    <br>
+                    <b>Commands:</b>
+                    <br>
+                    <h5><li>cstmcmd add &lt;cmd_name&gt; &lt;cmd_text&gt;</li></h5>
+                    <p>Lets you add a custom command with the provided name and value.<br>
+                        <span class = "eg">Eg: -!cstmcmd add dirt I love dirt!</span></p>
+                    
+                    <h5><li>cstmcmd remove &lt;cmd_name&gt;</li></h5>
+                    <p>Removes the custom command with the provided name.<br>
+                        <span class = "eg">Eg: -!cstmcmd remove moo</span></p>
+                    
+                    <h5><li>cstmcmd set &lt;cmd_name&gt; &lt;new_cmd_text&gt;</li></h5>
+                    <p>Lets you reset the value of the provided command without having to delete it and readd it again.<br>
+                        <span class = "eg">Eg: -!cstmcmd set dirt I love dirt even more!</span></p>
+                    
+                    <h5><li>kick &lt;&#64;user&gt;</li></h5>
+                    <p>Kicks the <b>mentioned</b> user. Note that the bot doesn't have ban/kick permission by default.<br>
+                        <span class = "eg">Eg: -!kick &#64;Raizusekku</span></p>
+                    
+                    <h5><li>ban &lt;&#64;user&gt;</li></h5>
+                    <p>Bans the <b>mentioned</b> user. Note that the bot doesn't have ban/kick permission by default.<br>
+                        <span class = "eg">Eg: -!ban &#64;Raizusekku</span></p>
+                    
+                    <h5><li>guildinfo</li></h5>
+                    <p>Provides all the necessary and detailed information about the guild you are in.<br>
+                        <span class = "eg">Eg: -!guildinfo</span></p>
+                    
+                    <h5><li>joinrole &#91;&#64;user&#93;</li></h5>
+                    <p>Set a join role or remove it. Note that it might be case sensitive.<br>
+                        No arguments to remove it.<br>
+                        With arguments &#40;role&#41; to set that as the role.<br>
+                        <span class = "eg">Eg: -!joinrole Member</span></p>
+                    
+                    <h5><li>asr &lt;role_name&gt;</li></h5>
+                    <p>Adds the provided role &#40;name&#41; to the self-assignable roles list.<br>
+                        <span class = "eg">Eg: -!asr Dirt</span></p>
+                    
+                    <h5><li>rsr &lt;role_name&gt;</li></h5>
+                    <p>Removes the provided role &#40;name&#41; from the self-assignable roles list.<br>
+                        <span class = "eg">Eg: -!rsr Dirt</span></p>
+                    
+                    <h5><li>medals add &lt;emoji&gt; &lt;multiplier&gt; &lt;medal_name&gt;</li></h5>
+                    <p>Adds a medal &#40;emoji&#41; with a multiplies and a name.<br>
+                        Emoji &nbsp;&nbsp;&nbsp;&nbsp; = Actual emoji such as :pizza: &#40;Note that custom emojis <b>DO NOT</b> work&#41;.<br>
+                        Multiplier = Number denoting how many medals instead of having the same medal numerous times; such as :pizza:x2 or :pizza:x2.<br>
+                        Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = Name of the medal that you want to add.<br>
+                        <span class = "eg">Eg: -!medals add :pizza: 5 PizzaMaster</span></p>
+                    
+                    <h5><li>medals remove &lt;medal_name&gt;</li></h5>
+                    <p>Removes the medal with the provided medal name.<br>
+                        <span class = "eg">Eg: -!medals remove PizzaMaster</span></p>
+                </div>
+            </div>
+            <br>
+            <div class="cmdtitles">
+                <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
+                    <div id="modcmd">
+                        <h4><span id="caret"><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Moderator Commands</h4>
+                    </div>
+                </div>
+                <div id="modshowhide" style="hidden">
+                    Requires <b>Bot Mod</b> or <b>Mod</b> or <b>Moderator</b> role for the user to be recognized as a moderator.
+                    <br><br>
+                    <b>Required Bot Permissions:</b>
+                    <br>
+                    <ol>
+                        <li>READ MESSAGES</li>
+                        <li>SEND MESSAGES</li>
+                        <li>EMBED MESSAGES</li>
+                        <li>MANAGE NICKNAMES</li>
+                        <li>MANAGE CHANNELS</li>
+                        <li>MANAGE MESSAGES</li>
+                        <li>ADD REACTIONS</li>
+                        <li>MOVE MEMBERS</li>
+                        <li>MUTE MEMBERS</li>
+                        <li>DEAFEN MEMBERS</li>
+                    </ol>
+                    <br>
+                    <b>Commands:</b>
+                    <br>
+                    <h5><li>mute &lt;&#64;user&gt;</li></h5>
+                    <p>Mutes the mentioned user in <b>the current channel only</b>!<br>
+                        <span class = "eg">Eg: -!mute &#64;Raizusekku</span></p>
+                    
+                    <h5><li>unmute &lt;&#64;user&gt;</li></h5>
+                    <p>Unmutes the mentioned user from the channel.<br>
+                        <span class = "eg">Eg: -!unmute &#64;Raizusekku</span></p>
+                    
+                    <h5><li>award &lt;&#64;user&gt; &lt;medal&gt;</li></h5>
+                    <p>Awards the mentioned user with the provided medal name. Use <i>medallist</i> command to view the medals and the medal names.<br>
+                        <span class = "eg">Eg: -!award &#64;Raizusekku PizzaMaster</span></p>
+                    
+                    <h5><li>clear &#91;&#64;user&#93; &#91;num&#93;</li></h5>
+                    <p>Clears the given amount of messages in the channel with or without arguments &#40;Bot can only access the past 2 weeks of messages so it cannot clear anything older than that&#41;<br>
+                        Valid sub-commands:<br>
+                        clear &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = Clears past 100 messages.<br>
+                        clear &lt;num&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = Clears the given amount of messages.<br>
+                        clear &lt;&#64;user&gt; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = Clears past 100 messages of the mentioned user.<br>
+                        clear &lt;&#64;user&gt; &lt;num&gt; = Clears the given amount of messages of the mentioned user.<br>
+                        <span class = "eg">Eg: -!clear &#64;Raizusekku 50</span></p>
+                    
+                    <h5><li>move &lt;&#64;user&gt; &lt;chan_id&gt;</li></h5>
+                    <p>Moves the given user from the channel they are in to the provided channel id. &#40;Make sure the user is in the voice chat.&#41;<br>
+                        <span class = "eg">Eg: -!move &#64;Raizusekku 304821843192315904</span></p>
+                    
+                    <h5><li>move all &lt;from_chan_id&gt; &lt;to_chan_id&gt;</li></h5>
+                    <p>Moves all the users from the provided channel id to the given channel id. &#40;Because why not?&#41;<br>
+                        <span class = "eg">Eg: -!move all 304821843192315904 240614697848537090</span></p>
+                    
+                    <h5><li>infect &lt;&#64;user&gt; &lt;emoji&gt;</li></h5>
+                    <p>Makes the bot add the provided emoji to the tagged user until they are disinfected. Note that custom emojis <b>do work</b> for this command unlike medal commands.<br>
+                        <span class = "eg">Eg: -!infect &#64;Raizusekku :cow:</span></p>
+                    
+                    <h5><li>disinfect &lt;&#64;user&gt;</li></h5>
+                    <p>Simply disinfects an infected user and saves their lives, definitely.<br>
+                        <span class = "eg">Eg: -!disinfect &#64;Raizusekku</span></p>
+                </div>
+            </div>
+            <br>
+            <div class="cmdtitles">
+                <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
+                    <div id="informcmd">
+                        <h4><span id="caret"><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Informative Commands</h4>
+                    </div>
+                </div>
+                <div id="informshowhide" style="hidden">
+                    Useful commands for you to use for various purposes.
+                    <br><br>
+                    <b>Required Bot Permissions:</b>
+                    <br>
+                    <ol>
+                        <li>READ MESSAGES</li>
+                        <li>SEND MESSAGES</li>
+                        <li>EMBED MESSAGES</li>
+                        <li>CREATE INSTANT INVITES</li>
+                    </ol>
+                    <br>
+                    <b>Commands:</b>
+                    <br>
+                    <h5><li>ping</li></h5>
+                    <p>Displays the ping of the bot, very simple!<br>
+                        <span class = "eg">Eg: -!ping</span></p>
+                    
+                    <h5><li>usr &#91;&#64;user&#93;</li></h5>
+                    <p>Displays the roles of a mentioned user or yourself.<br>
+                        No arguments = Roles of yourself.<br>
+                        W/ arguments = Roles of the mentioned user.<br>
+                        <span class = "eg">Eg: -!usr &#64;Raizusekku</span></p>
+                    
+                    <h5><li>userinfo &#91;&#64;user&#93;</li></h5>
+                    <p>Displays info about a mentioned user or yourself.<br>
+                        No arguments = Info about yourself.<br>
+                        W/ arguments = Info about the mentioned user.<br>
+                        <span class = "eg">Eg: -!userinfo &#64;Raizusekku</span></p>
+            
+                    <h5><li>inrole &lt;&#64;user&gt;</li></h5>
+                    <p>Shows a list of users who are in the provided role name.<br>
+                        <span class = "eg">Eg: -!inrole &#64;DirtIsAwesome</span></p>
+                    
+                    <h5><li>botstats</li></h5>
+                    <p>Displays all the info required about the bot.<br>
+                        <span class = "eg">Eg: -!botstats</span></p>
+            
+                    <h5><li>invite &#91;server&#93;</li></h5>
+                    <p>Provides you with a list of invite links present in the server or the invite link for the bot.<br>
+                        No arguments = Invite link for the bot.<br>
+                        W/ arguments = Invite links for the current server &#40;The actual word 'server'&#41;.<br>
+                        <span class = "eg">Eg: -!invite server</span></p>
+                    
+                    <h5><li>weather &lt;city_name&gt;</li></h5>
+                    <p>Provides you with the weather info about the given city.<br>
+                        <span class = "eg">Eg: -!weather LA</span></p>
+            
+                    <h5><li>time &lt;city/address&gt;</li></h5>
+                    <p>Provides you with the current time based on the given info.<br>
+                        <span class = "eg">Eg: -!time LA</span></p>
+            
+                    <h5><li>feedback &lt;stuffs&gt;</li></h5>
+                    <p>You can provide feedback about the bot to the owner of the bot! Just don't make it empty lol. You may indicate whatever you didn't like about the bot.<br>
+                        <span class = "eg">Eg: -!feedback I didn't like something.</span></p>
+            
+                    <h5><li>help</li></h5>
+                    <p>Displays the list of commands and info about it in the client itself.<br>
+                        <span class = "eg">Eg: -!help</span></p>
+            
+                    <h5><li>commands &lt;all/enabled/disabled&gt;</li></h5>
+                    <p>Shows the list of commands that are either enabled, disabled or all of them.<br>
+                        enabled &nbsp;= List of enabled commands.<br>
+                        disabled = List of disabled commands.<br>
+                        all &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = List of all the commands.
+                        <span class = "eg">Eg: -!commands all</span></p>
+            
+                    <h5><li>suggest &lt;stuffs&gt;</li></h5>
+                    <p>Similar to feedback but it's only for suggestion of improvements in the bot or this website!<br>
+                        <span class = "eg">Eg: -!suggest It needs more Dirt.</span></p>
+            
+                    <h5><li>medallist</li></h5>
+                    <p>Displays a list of all the medals available on the server.<br>
+                        <span class = "eg">Eg: -!medallist</span></p>
+            
+                    <h5><li>selfroles</li></h5>
+                    <p>Displays the list of all the self assignable roles set on the server.<br>
+                        <span class = "eg">Eg: -!selfroles</span></p>
+            
+                    <h5><li>customcommands</li></h5>
+                    <p>Displays the list of all the custom commands present on the server.<br>
+                        <span class = "eg">Eg: -!customcommands</span></p>
+                </div>
+            </div>
+            <br>
+            <div class="cmdtitles">
+                <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.8s">
+                    <div id="funcmd">
+                        <h4><span id="caret"><i class="fa fa-caret-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Fun Commands</h4>
+                    </div>
+                </div>
+                <div id="funshowhide" style="hidden">
+                    Just some fun/useful commands because why not, right?
+                    <br><br>
+                    <b>Required Bot Permissions:</b>
+                    <br>
+                    <ol>
+                        <li>READ MESSAGES</li>
+                        <li>SEND MESSAGES</li>
+                        <li>EMBED MESSAGES</li>
+                        <li>MANAGE ROLES</li>
+                    </ol>
+                    <br>
+                    <b>Commands:</b>
+                    <br>
+                    <h5><li>wyr</li></h5>
+                    <p>Just a fun little game of Would You Rather. Feel free to suggest more games.<br>
+                        <span class = "eg">Eg: -!wyr</span></p>
+                    
+                    <h5><li>feed &lt;&#64;user&gt; &lt;foodname&gt;</li></h5>
+                    <p>Feed the mentioned user with the provided food name. Most/All of the food emojis should work.<br>
+                        <span class = "eg">Eg: -!feed &#64;Raizusekku pizza</span></p>
+                    
+                    <h5><li>poke &lt;&#64;user&gt;</li></h5>
+                    <p>Poke someone! :D<br>
+                        <span class = "eg">Eg: -!poke &#64;Tori</span></p>
+            
+                    <h5><li>giveself &lt;role_name&gt;</li></h5>
+                    <p>Adds a self-assignable role to your roles. Check the list of self-assignable roles using <b>selfroles</b> command.<br>
+                        <span class = "eg">Eg: -!giveself DirtMaster</span></p>
+                    
+                    <h5><li>removeself &lt;role_name&gt;</li></h5>
+                    <p>Removes a self-assignable role from your roles. Check the list of self-assignable roles using <b>selfroles</b> command.<br>
+                        <span class = "eg">Eg: -!removeself NotDirtMaster</span></p>
+                    
+                    <h5><li>cat</li></h5>
+                    <p>A random image of one or many cute cats!<br>
+                        <span class = "eg">Eg: -!cat</span></p>
+                    
+                    <h5><li>dog</li></h5>
+                    <p>Random and cute image of dogs! &lt;3<br>
+                        <span class = "eg">Eg: -!dog</span></p>
+            
+                    <h5><li>say &lt;stuffs&gt;</li></h5>
+                    <p>Make the bot repeat what you say. If you have MANAGE MESSAGE permission then it deletes your message so that it looks even more legit!<br>
+                        <span class = "eg">Eg: -!say Beep beep ima sheep</span></p>
+                    
+                    <h5><li>poll &#91;title&#93; &lt;option1|option2&gt;</li></h5>
+                    <p>Creates a poll based on the given arguments.<br>
+                        <b>title</b> is an option argument and is not required.<br>
+                        Separate the title and the options with the delimiter <b>"|"</b> for each option you put in.<br>
+                        <span class = "eg">Eg: -!poll Title is Dirt | Dirt is awesome | Dirt is cool | Oh wait.. Dirt is always amazing</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <footer>
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            &copy; DirtBot. All Rights Reserved.
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Multi
+              -->
+            </div>
+          </div>
+          <div class="col-md-6">
+            <ul class="pull-right">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="commands.html">Commands</a></li>
+              <li><a href="https://discordapp.com/oauth2/authorize?client_id=336255578567475204&scope=bot&permissions=2146958585">Invite Bot</a></li>
+              <li><a href="https://discord.gg/bKgKm9s">Join Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pull-right">
+          <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/showhide.js"></script>
+  <script src="https://use.fontawesome.com/b7c98f40b0.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/fancybox/jquery.fancybox.pack.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.bxslider.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script>
+    wow = new WOW({}).init();
+  </script>
+
+</body>
+
+</html>
